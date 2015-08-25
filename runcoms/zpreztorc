@@ -126,10 +126,30 @@ zstyle ':prezto:module:prompt' theme 'powerlevel9k'
 #   'root'
 #
 # Set syntax highlighting styles.
-# zstyle ':prezto:module:syntax-highlighting' styles \
-#   'builtin' 'bg=blue' \
-#   'command' 'bg=blue' \
-#   'function' 'bg=blue'
+#   syntax-highlighting is in preliminary stage, many tokens are unknown :(,
+#   so we should not give it color
+#   'unknown-token' 'fg=252,bg=52' \
+ zstyle ':prezto:module:syntax-highlighting' styles \
+   'unknown-token' '' \
+   'reserved-word' 'fg=108' \
+   'conditional' 'fg=110' \
+   'loop' 'fg=68' \
+   'exception' 'fg=161' \
+   'alias' 'fg=108' \
+   'builtin' 'fg=108' \
+   'function' 'fg=187' \
+   'command' 'fg=108' \
+   'precommand' 'fg=65' \
+   'hashed-command' 'fg=108' \
+   'path' 'fg=116' \
+   'path_prefix' 'fg=116' \
+   'path_approx' 'fg=116,underline' \
+   'globbing' 'fg=216' \
+   'history-expansion' 'fg=216' \
+   'single-quoted-argument' 'fg=109' \
+   'double-quoted-argument' 'fg=109' \
+   'dollar-double-quoted-argument' 'fg=217' \
+   'back-double-quoted-argument' 'fg=216' \
 
 #
 # Terminal
