@@ -3,7 +3,7 @@
 	url = https://github.com/zsh-users/zsh-history-substring-search.git
 [submodule "modules/syntax-highlighting/external"]
 	path = modules/syntax-highlighting/external
-	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+	url = https://github.com/tcbbd/zsh-syntax-highlighting.git
 [submodule "modules/completion/external"]
 	path = modules/completion/external
 	url = https://github.com/zsh-users/zsh-completions.git
@@ -16,3 +16,6 @@
 [submodule "modules/prompt/functions/pure"]
 	path = modules/prompt/external/pure
 	url = https://github.com/sindresorhus/pure.git
+[submodule "modules/prompt/external/powerlevel9k"]
+	path = modules/prompt/external/powerlevel9k
+	url = https://github.com/tcbbd/powerlevel9k.git
