@@ -28,7 +28,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+alias j='fasd_cd'
+alias jj='fasd_cd -i'
+alias f='fasd -fi'
 
 # If not running interactively, don't do anything
 case $- in
