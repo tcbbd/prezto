@@ -19,3 +19,6 @@
 [submodule "modules/prompt/external/powerlevel9k"]
 	path = modules/prompt/external/powerlevel9k
 	url = https://github.com/tcbbd/powerlevel9k.git
+[submodule "modules/k/external"]
+	path = modules/k/external
+	url = https://github.com/rimraf/k.git
