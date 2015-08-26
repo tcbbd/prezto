@@ -32,6 +32,8 @@ alias j='fasd_cd'
 alias jj='fasd_cd -i'
 alias f='fasd -fi'
 
+alias cpv="rsync -poghb --backup-dir=/tmp/rsync -e /dev/null --progress"
+
 # If not running interactively, don't do anything
 case $- in
     *i*) stty -ixon;; # disable XON/XOFF software flow control
