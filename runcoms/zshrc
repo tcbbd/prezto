@@ -30,10 +30,6 @@ fi
 
 # Customize to your needs...
 
-HISTFILE=~/.zsh_history
-HISTSIZE=1000
-SAVEHIST=1000
-
 # If not running interactively, don't do anything
 case $- in
     *i*) stty -ixon;; # disable XON/XOFF software flow control
