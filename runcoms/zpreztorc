@@ -167,7 +167,7 @@ zstyle ':prezto:module:prompt' theme 'powerlevel9k'
    'back-quoted-argument' 'fg=173' \
    'single-quoted-argument' 'fg=109' \
    'double-quoted-argument' 'fg=109' \
-   'dollar-quoted-argument' 'fg=217' \
+   'dollar-quoted-argument' 'fg=109' \
    'dollar-double-quoted-argument' 'fg=217' \
    'back-double-quoted-argument' 'fg=216' \
    'back-dollar-quoted-argument' 'fg=216' \
