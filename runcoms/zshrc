@@ -66,8 +66,6 @@ alias f='fasd -fi'
 
 alias cpv="rsync -poghb --backup-dir=/tmp/rsync -e /dev/null --progress"
 
-alias clip='xclip -selection clipboard'
-
 # If not running interactively, don't do anything
 case $- in
   *i*) stty -ixon;; # disable XON/XOFF software flow control
@@ -88,3 +86,6 @@ export LESS_TERMCAP_us=$'\E[04;38;5;147m'         # begin underline
 
 export COLORTERM='truecolor'
 export MANPAGER="nvim -c 'set ft=man' -"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_COMMAND='ag --hidden -g ""'
