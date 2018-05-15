@@ -89,6 +89,7 @@ export MANPAGER="nvim -c 'set ft=man' -"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_COMMAND='ag --hidden -g ""'
+export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
 
 export CHEATCOLORS=true
 eval $(thefuck --alias)
