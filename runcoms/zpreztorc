@@ -35,7 +35,6 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'command-not-found' \
-  'k' \
   'completion' \
   'fasd' \
   'syntax-highlighting' \
